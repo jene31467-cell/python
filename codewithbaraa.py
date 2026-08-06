@@ -25,16 +25,16 @@
 
 # print("@"  in email)
 
-# phone1 = "46-6302-234972"
-# phone2 = "78-8473-47848"
+phone1 = "46-6302-234972"
+phone2 = "78-8473-47848"
 
 # print(phone.find("-"))
-# print(phone1[phone1.find("-")+1:])
-# print(phone2[phone2.find("-")+1:])
+print(phone1[phone1.find("-")+1:])
+print(phone2[phone2.find("-")+1:])
 
 # validating string values
-country = "GERMANY"
-print(country.isalpha())
+# country = "GERMANY"
+# print(country.isalpha())
 
-phone = "0908764436"
-print(phone.isnumeric())
+# phone = "0908764436"
+# print(phone.isnumeric())

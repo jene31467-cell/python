@@ -49,22 +49,23 @@
 # else:
 #     print("email is valid")
 
-password = input("enter password")
-password = password.strip()
-email = 'ib@gmail.com'
+# password = input("enter password")
+# password = password.strip()
+# email = 'ib@gmail.com'
 
-if password == "":
-    print("password cannot be empty")
-elif len(password) < 8:
-    print("password must be atleast 8 character long")
-elif not any(char.isupper() for char in password):
-    print("password must contain atleast one uppercase letter")
-elif not any(char.islower() for char in password):
-    print("password must contain atleast one lowercase letter")
-elif email == password:
-    print("password cannot be same as email")
-elif password[0].isalnum() and password[-1].isalnum():
-    print("valid password")
-else:
-    print("password is valid")
+# if password == "":
+#     print("password cannot be empty")
+# elif len(password) <= 8:
+#     print("password must be atleast 8 character long")
+# elif not any(char.isupper() for char in password):
+#     print("password must contain atleast one uppercase letter")
+# elif not any(char.islower() for char in password):
+#     print("password must contain atleast one lowercase letter")
+# elif email == password:
+#     print("password cannot be same as email")
+# elif password[0].isalnum() and password[-1].isalnum():
+#     print("valid password")
+# else:
+#     print("password is valid")
+
 

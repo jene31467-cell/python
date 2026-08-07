@@ -16,8 +16,8 @@ def calculate_payout(user, amount):
     else:
         return "No user found"
 
-    test_user = User(is_active=True, comission_rate=0.15)
-    print(calculate_payout(test_user, 100))
+test_user = User(is_active=True, comission_rate=0.15)
+print(calculate_payout(test_user, 100))
 
 for twist_number in range(3):
         print("grinding twist number " + str(twist_number + 1))
@@ -53,8 +53,8 @@ if age_str.isdigit():
 else:
     print("That's not a valid age!")
 
-s = set("banana")
-print(len(s))
+# s = set("banana")
+# print(len(s))
 
-x = [1, 2]
-print(x, append(3))
+# x = [1, 2]
+# print(x, append(3))

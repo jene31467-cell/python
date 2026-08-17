@@ -61,5 +61,3 @@ while attempts < 3:
 else:
     print('3 strikes and you are out')
         
-# else:
-#     print('3 strikes you are out')

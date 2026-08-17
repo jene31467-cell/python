@@ -125,3 +125,8 @@
 #orchestrator function controls program flow by calling other functions in correct order.
   
 #write functions that are easy to read and understand
+#adding a type hint to  a defined function doesnt convert it
+""" 
+always describe what goes in and what comes out of the function in the docstring
+args:
+"""

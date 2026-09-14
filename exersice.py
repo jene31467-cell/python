@@ -28,6 +28,7 @@
 # while i <= 4:
 #     print(i)
 #     i += 1
+#counterbased counter
 # count = 1
 # while count <= 10:
 #     print(count)
@@ -38,11 +39,11 @@
 #     answer = input('do you agree?')
 # print('thank you')
 
-# while True:
-#     answer = input('do you agree?')
-#     if answer == 'yes':
-#         break
-# print('Thank you')
+while True:
+    answer = input('do you agree? (yes\no): ')
+    if answer == 'yes':
+        break
+print('Thank you')
 # while True:
 #     x = input('type')
 #     if x == 'stop':
@@ -60,4 +61,4 @@ while attempts < 3:
     attempts += 1
 else:
     print('3 strikes and you are out')
-        
+         

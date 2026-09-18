@@ -31,3 +31,19 @@
     #         print("cooked!!! ")
     #     else:
     #         print("kicked out!!! ")
+
+# words = ['sky', 'apple', 'rythm', 'fly', 'orange']
+
+# for word in words:
+#     for letter in word:
+#         if letter.lower() in 'aeiou':
+#             print(f"'{word}' contains the vowel '{letter}'")
+#             break
+#         else:
+#             print(f"'{word}' has no vowels")
+
+# for num in range(40, 20, -10):
+#     print(num)
+
+numbers = list(range(2, 11, 2))
+print(numbers)
